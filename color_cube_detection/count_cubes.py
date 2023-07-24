@@ -43,8 +43,6 @@ def detect_blob(mask):
 
     # use the detector to detect blobs.
     keypoints = detector.detect(img)
-    if (len(keypoints) != 0):
-        print(keypoints[0].pt[0])
 
     img_w_kp = cv2.drawKeypoints(img, keypoints, np.array([]), (0,255,0), cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
     cv2.imshow("Keypoints", img_w_kp)
