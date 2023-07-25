@@ -1,4 +1,4 @@
-# PeARL SourceCS Workshop
+# PeARL SoareCS Workshop
  
 Welcome to the PeARL Workshop! Today we will be looking at how robots understand and interact with the world around them! One of the most important peices of understanding the world is vision, so we will be doing some vision processing!
 
